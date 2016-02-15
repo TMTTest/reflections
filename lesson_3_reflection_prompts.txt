@@ -22,3 +22,7 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 		Without Git or Github I'd use zip folders. This would make things easier as there would be no confusion around Git commands and the latest zip file should be the current working version. Zip files would make things more difficult as they are less flexible in terms of bug hunting or adding new experimental features.
 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+		Separate branch allows you to experiment without affecting master branch. It also allows you to work collaboratively with others on the same master branch. Working in the same branch avoids any confusion around pulling/merging that GitHub adds to the process.
