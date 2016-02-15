@@ -15,13 +15,28 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+		Use a combination of "git diff" & "git diff --staged" to review the work you are commiting and verify that it satisfies one commit per logical change.
+
+ 
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+		When you want to add a new feature or fix a bug. Branches help by keeping each update separate until it's ready to add back to the main workflow.
+
+
 How do the diagrams help you visualize the branch structure?
+
+		By showing what commits will appear in each branch when we run git log. Each branch will only report commits for changes done in that path and will not show changes made in other branches.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+		Merging combines two branches into one, adding the functionality from one branch to another. We represent it like a spider graph to highlight which commits were made on which branch using the git log --graph --oneline command
+
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+		Pro's are it's quick and consistent. Cons are that it may cause confusion.
